@@ -44,4 +44,4 @@ Firewall Configuration: I learned firsthand that installing a web server is only
 
 📸 Proof of Deployment
 
-
+![NGINX Landing Page](./aws-ec2-web-server.jpeg)
