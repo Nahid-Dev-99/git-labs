@@ -36,3 +36,13 @@ sudo systemctl start nginx
 
 # Verify the service is running correctly
 sudo systemctl status nginx
+
+🚧 Challenges & Solutions
+The HTTPS Timeout Trap: Initially, the web page appeared to hang indefinitely. I realized modern browsers default to forcing a secure https:// connection (Port 443). Since the server was only configured for HTTP, I solved this by explicitly typing http:// in the address bar to connect via Port 80.
+
+Firewall Configuration: I learned firsthand that installing a web server is only half the battle. If the AWS Security Group does not have an inbound rule allowing TCP traffic on Port 80 from 0.0.0.0/0, the server will silently drop all web requests.
+
+📸 Proof of Deployment
+<img width="3012" height="1720" alt="image" src="https://github.com/user-attachments/assets/543d1c3c-3d73-4703-b7be-8257ba7081bc" />
+<img width="3020" height="1474" alt="image" src="https://github.com/user-attachments/assets/6de3b2ef-0ae6-4881-9c2a-3f0ecd88dbfe" />
+
