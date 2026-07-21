@@ -45,5 +45,5 @@ Firewall Configuration: I learned firsthand that installing a web server is only
 
 📸 Proof of Deployment
 
-![AWS EC2 Instance web server](./aws-ec2-web-server.jpeg)
+![AWS EC2 Instance web server](./AWS-EC2-web-server.jpeg)
 ![NGINC Landing page proof](./nginx-landing-page.jpeg)
